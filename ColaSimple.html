@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cola Simple</title>
+</head>
+<body>
+ 
+  <h1>Tec Supermarket</h1>
+  <h4>FIFO (First In, First Out)</h4>
+  <h4>Primero en entrar Primero en Salir</h4>
+
+  <div>
+    <label for="elemento">Agregar elemento(Personas):</label>
+    <input type="text" id="elemento">
+    <button onclick="agregarElemento()">LLegada</button>
+  </div>
+
+  <div>
+    <button onclick="eliminarElemento()">Atender</button>
+  </div>
+
+  <div>
+    <p>Personas en la cola: <span id="elementosCola"></span></p>
+    <p>Tamaño de la cola: <span id="tamanoCola"></span></p>
+  </div>
+  
+
+  
+  <script src="ColaSimple.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</body>
+</html>
+
+
+
